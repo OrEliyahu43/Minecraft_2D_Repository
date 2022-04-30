@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#open-screen[show="false"]{
+    display: none;
+}
+#open-screen {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(./elements/openScreen2.png) no-repeat center/cover ;
+
+}
+
+ul {
+
+    align-items: center;
+    list-style: none;
+ 
+}
+
+li {
+    color: white;
+    background-color: gray;
+    display: block;
+    width: max-content;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 1rem
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+
+#tutorial[show="false"]{
+    display: none;
+    background-color: white;
+    width: 70%;
+    font-size: 2rem;
+
+}
+
+#tutorial{
+    width: 70%;
+    font-size: 2rem;
+    color: white;
+}
+
+#game-container[show=false]{
+    display:none
+}
+
+#game-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+#game-board{
+    display: grid;
+    grid-template-columns: repeat(21,1fr);
+    grid-template-rows: repeat(21,1fr);
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#game-section{
+    width: 80%;
+}
+
+#monitor-container{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding-top: 4rem;
+    align-items: center;
+    flex-grow: 1;
+    background-color: black;
+
+}

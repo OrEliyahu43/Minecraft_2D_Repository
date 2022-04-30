@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft-2D</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./game.css">
+</head>
+
+<body>
+    <div id="open-screen" show="true">
+        <ul>
+            <li>Tutorial</li>
+            <li>Start game</li>
+        </ul>
+        <div id="tutorial" show="false">
+            you should build your own world using 3 types of tools: a.Axe - for cutting trees b.Pickaxe - for mining
+            rocks c.Shovel - for digging dirt
+        </div>
+    </div>
+
+    <div id="game-container" show="false">
+        <div id="game-section">
+            <div id="game-board"></div>
+        </div>
+        <div id="monitor-container">
+            <div class="tool" id="axe"></div>
+            <div class="tool" id="pickaxe"></div>
+            <div class="tool" id="shovel"></div>
+
+            <div id="inventory">
+                <div class="inventory ground">0</div>
+                <div class="inventory grass">0</div>
+                <div class="inventory leaves">0</div>
+                <div class="inventory stone">0</div>
+                <div class="inventory tree">0</div>
+              
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="/script.js" type="module"></script>
+    <script src="./logic.js" type="module"></script>
+    <script src="./game.js" type="module"></script>
+</body>
+
+</html>

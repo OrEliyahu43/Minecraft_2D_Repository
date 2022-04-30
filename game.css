@@ -1,0 +1,106 @@
+#axe{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./elements/axe.png);
+}
+
+#pickaxe{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./elements/pink_pickaxe_by_connersowles1_ddey04s-fullview.png);
+
+    
+}
+
+#shovel{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(./elements/shoval.jpg);
+}
+
+
+.tool{
+    height: 7rem;
+    width: 6rem;
+    border:2px solid white;
+    background-color:black;
+}
+
+.choosenTool{
+    background-color: blue;
+}
+
+.hoverd-tool{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.chosen-tool{
+    background-color: blue;
+}
+
+
+.sky{
+    background-color: #7CCFFD;
+}
+
+.ground{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./elements/ground.jpg);
+}
+
+.leaves{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./elements/leafs.jpg);
+}
+
+.tree{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./elements/tree\ trunk.png);
+}
+
+.grass{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./elements/grass.jpg);
+}
+
+.stone{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./elements/stone.jpg);
+}
+
+.overElemnt{
+    border:1px solid yellow;
+}
+
+#inventory{
+    margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.inventory{
+    box-sizing: border-box;
+    border: 2px yellow solid;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+}
